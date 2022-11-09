@@ -1,3 +1,11 @@
+/* Nav Bar*/
+ /* Navbar items align-right */
+#navbarNavAltMarkup {
+    justify-content: flex-end;
+}
+
+
+/* Carousel */
 .carousel { height: calc(100vh - 60px);}
 .carousel-inner,.carousel-item { height: 100%;}
 .carousel-item { background-color: #000;}
