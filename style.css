@@ -10,3 +10,32 @@
 .carousel-inner,.carousel-item { height: 100%;}
 .carousel-item { background-color: #000;}
 .carousel-item img { height: 100%; object-fit: cover; object-position: center;}
+
+/* Project Grid */
+.project-col {
+    height: 300px;
+    width: 300px;
+    border: 5px solid black;
+}
+
+.project-col:hover {
+    border-color: red;
+}
+
+@media (min-width: 768px) {
+    .project-container{
+        width: 600px;
+    }
+}
+
+@media (min-width: 992px) {
+    .project-container{
+        width: 900px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .project-container{
+        width: 1200px;
+    }
+}
