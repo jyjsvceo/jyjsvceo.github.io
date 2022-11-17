@@ -16,6 +16,7 @@
     height: 300px;
     width: 300px;
     border: 10px solid black;
+    position: relative;
 }
 
 .project-col:hover {
@@ -50,4 +51,15 @@
     position: fixed;
     bottom: 3vh;
     right: 3vw;
+}
+
+.grid-description__container {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    top: 28px;
+    left: 28px;
+    text-align: center;
+    background-color: yellow;
+    z-index: 1;
 }
