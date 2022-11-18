@@ -12,14 +12,14 @@
 .carousel-item img { height: 100%; object-fit: cover; object-position: center;}
 
 /* Project Grid */
-.project-col {
+.project-grid {
     height: 300px;
     width: 300px;
     border: 10px solid black;
     position: relative;
 }
 
-.project-col:hover {
+.project-grid:hover {
     border-color: red;
 }
 
@@ -60,6 +60,30 @@
     top: 28px;
     left: 28px;
     text-align: center;
-    background-color: yellow;
+    background-color: black;
+    opacity: 90%;
     z-index: 1;
+    color: white;
+}
+
+.grid-description__textbox {
+    height: 180px;
+    margin: 22px;
+}
+
+.grid-description__title {
+    margin: 0 auto;
+    height: 80px;
+    font-size: 25px;
+}
+
+.grid-description__divider {
+    border-top: 2px solid white;
+    width: 10%;
+    margin: 9px auto 19px;
+}
+
+.grid-description__detail {
+    margin: 0 auto;
+    height: 70px;
 }
