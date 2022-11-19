@@ -64,6 +64,11 @@
     opacity: 90%;
     z-index: 1;
     color: white;
+    visibility: hidden;
+}
+
+.project-grid:hover .grid-description__container {
+    visibility: visible;
 }
 
 .grid-description__textbox {
