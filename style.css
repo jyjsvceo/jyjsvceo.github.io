@@ -23,6 +23,10 @@
     border-color: red;
 }
 
+.project-container {
+    width: 300px;
+}
+
 @media (min-width: 768px) {
     .project-container{
         width: 600px;
@@ -55,16 +59,18 @@
 
 .grid-description__container {
     position: absolute;
-    width: 80%;
-    height: 80%;
-    top: 28px;
-    left: 28px;
+    width: 75%;
+    height: 75%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
     background-color: black;
-    opacity: 90%;
+    opacity: 80%;
     z-index: 1;
     color: white;
     visibility: hidden;
+    padding: 10%;
 }
 
 .project-grid:hover .grid-description__container {
@@ -72,23 +78,24 @@
 }
 
 .grid-description__textbox {
-    height: 180px;
-    margin: 22px;
+    height: 100%;
+    width: 100%;
+    margin: 0;
 }
 
 .grid-description__title {
     margin: 0 auto;
-    height: 80px;
+    height: 45%;
     font-size: 25px;
 }
 
 .grid-description__divider {
     border-top: 2px solid white;
     width: 10%;
-    margin: 9px auto 19px;
+    margin: 5% auto;
 }
 
 .grid-description__detail {
     margin: 0 auto;
-    height: 70px;
+    height: 45%;
 }
