@@ -99,3 +99,15 @@
     margin: 0 auto;
     height: 45%;
 }
+
+ /* Modal */
+ .modal-grid__container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 5%;
+ }
+
+ .modal-description__container {
+    background-color: black;
+    color: white;
+ }
