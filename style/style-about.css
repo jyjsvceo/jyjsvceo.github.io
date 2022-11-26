@@ -2,21 +2,51 @@
 /* Grid */
 .about-grid__container {
     display: grid;
-    grid-template-columns: 300px 400px 500px;
-    width: 1260px;
-    margin: 0 auto;
-    border: 1px solid black;
+    grid-template-columns: 20vw 30vw 40vw;
+    grid-template-rows: 20vw 30vh 30vh;
+    grid-template-areas: 
+      "photo aboutme career"
+      "introduction education certificate"
+      "paragraph award skills";
+    margin: 5vh 5vw;
 }
 
-.about-grid__col1,
-.about-grid__col2 {
-    height: 900px;
+@media (max-width: 768px) {
+    .about-grid__container {
+        grid-template-columns: 100vw;
+        grid-template-rows: 100vw;
+        grid-template-areas: 
+          "photo"
+          "introduction"
+          "paragraph"
+          "aboutme"
+          "education"
+          "award"
+          "career"
+          "certificate"
+          "skills";
+        margin: 0;
+    }
+
+    .about-grid__item {
+        border-bottom: 1px solid black;
+        padding: 1vw 0;
+    }
 }
+
+.about-grid-photo { grid-area: photo;}
+.about-grid-aboutme { grid-area: aboutme;}
+.about-grid-career { grid-area: career;}
+.about-grid-introduction { grid-area: introduction;}
+.about-grid-education { grid-area: education;}
+.about-grid-certificate { grid-area: certificate;}
+.about-grid-paragraph { grid-area: paragraph;}
+.about-grid-award { grid-area: award;}
+.about-grid-skills { grid-area: skills;}
 
 .about-grid__item {
-    height: 300px;
-    padding: 10px;
-    box-sizing: border-box;
+    padding: 1vw;
+    white-space: normal
 }
 
 /* Content */
@@ -34,7 +64,7 @@
 }
 
 .about-grid__item h3 {
-    font-size: 15px;
+    font-size: 1.5vw;
     margin: 0;
     font-weight: 600;
 }
@@ -46,10 +76,10 @@
 
 .about-grid__item li,
 .about-grid__item p {
-    font-size: 14px;
+    font-size: 1vw;
 }
 
 .about-grid__item h1 {
-    font-size: 40px;
+    font-size: 2.5vw;
     font-weight: 800;
 }
