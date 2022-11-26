@@ -1,0 +1,55 @@
+/* About Page */
+/* Grid */
+.about-grid__container {
+    display: grid;
+    grid-template-columns: 300px 400px 500px;
+    width: 1260px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.about-grid__col1,
+.about-grid__col2 {
+    height: 900px;
+}
+
+.about-grid__item {
+    height: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Content */
+.about-grid__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-grid__item h4 {
+    color: green;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.about-grid__item h3 {
+    font-size: 15px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.about-grid__item ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-grid__item li,
+.about-grid__item p {
+    font-size: 14px;
+}
+
+.about-grid__item h1 {
+    font-size: 40px;
+    font-weight: 800;
+}

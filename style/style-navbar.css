@@ -1,0 +1,4 @@
+/* Navbar items align-right */
+#navbarNavAltMarkup {
+    justify-content: flex-end;
+}
