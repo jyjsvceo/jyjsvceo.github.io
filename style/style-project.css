@@ -38,12 +38,6 @@
     object-fit: cover;
 }
 
-.back-to-top {
-    position: fixed;
-    bottom: 3vh;
-    right: 3vw;
-}
-
 .grid-description__container {
     position: absolute;
     width: 75%;
@@ -97,4 +91,17 @@
 .modal-description__container {
     background-color: black;
     color: white;
+}
+
+
+/* Back To Top */
+.back-to-top {
+    position: fixed;
+    bottom: 1vh;
+    right: 1vw;
+}
+
+.back-to-top img {
+    height: 5vh;
+    width: 5vh;
 }
